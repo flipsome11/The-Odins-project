@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #fefae0;
+}
+
+
+.newLi {
+    padding: 0;
+    margin: 0;
+    color:blueviolet;
+    font-weight: 600;
+}
+
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+h1 {
+    color: #d4a373;
+}
+
+.playButtons {
+    background-color: #e9cdc9;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.newGameButton {
+    background-color: #d4a373;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    padding: 0 20px;
+  }
